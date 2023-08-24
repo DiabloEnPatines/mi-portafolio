@@ -6,18 +6,19 @@ const Contact = () => {
     <div className="contact">
       <h2>Contacto</h2>
       <p>Si deseas ponerte en contacto conmigo, no dudes en escribirme:</p>
-      <form>
-        <label htmlFor="name">Nombre:</label>
-        <input type="text" id="name" name="name" required />
+      <form action="enviar_formulario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+         <input type="text" name="nombre" required />
 
-        <label htmlFor="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email" required />
+         <label for="email">Email:</label>
+         <input type="email" name="email" required />
 
-        <label htmlFor="message">Mensaje:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+         <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" required></textarea>
 
-        <button type="submit">Enviar Mensaje</button>
+        <button type="submit">Enviar</button>
       </form>
+
     </div>
   );
 };
