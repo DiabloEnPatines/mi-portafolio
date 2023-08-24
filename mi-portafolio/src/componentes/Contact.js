@@ -7,7 +7,7 @@ import '../App.css';
 function Contact() {
   const [state, handleSubmit] = useForm("moqodnky");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return <p>GRacias por contactarme, te dare una respuesta en breve!</p>;
   }
   return (
       <form onSubmit={handleSubmit}>
