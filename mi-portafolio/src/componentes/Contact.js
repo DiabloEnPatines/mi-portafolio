@@ -5,7 +5,7 @@ import '../App.css';
 
 
 function Contact() {
-  const [state, handleSubmit] = useForm("https://formspree.io/f/moqodnky");
+  const [state, handleSubmit] = useForm("moqodnky");
   if (state.succeeded) {
       return <p>Thanks for joining!</p>;
   }
