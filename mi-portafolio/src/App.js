@@ -7,7 +7,8 @@ import SocialMedia from './componentes/SocialMedia';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Contact from './componentes/Contact';
 
-const foto = require('./images/cara.jpg');
+const raguiK = require('./images/raguik.jpg');
+const cara = require('./images/cara.jp');
 
 
 
@@ -46,7 +47,7 @@ function App() {
           title="Tienda Online"
           company="Ragui-K"
           description="*Levantamiento del sitio web. *Configuracion y mantencion del sitio web. *Administrar, modificar y actualizar datos y productos del sitio web. *Deribar pedidos a area encargada"
-          imageUrl={foto}
+          imageUrl={raguiK}
         />
         <Work
           title="Proyecto DEF"
